@@ -1,0 +1,31 @@
+.ScrollButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  background-color: #16b0df;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.ScrollButton:hover {
+  background-color: rgb(212, 23, 202);
+  transform: scale(1.05);
+}
+
+.ScrollButton:active {
+  transform: scale(0.95);
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

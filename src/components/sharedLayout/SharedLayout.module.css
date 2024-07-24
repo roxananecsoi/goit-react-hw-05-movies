@@ -1,0 +1,45 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1rem;
+  background-color: rgba(74, 11, 133, 0.068);
+  height: auto;
+}
+
+.navbar {
+  font-weight: bold;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
+
+.navLink {
+  color: black;
+  margin-right: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: large;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.navLink:active {
+  color: rgb(212, 23, 202);
+  text-decoration: underline;
+}
+
+.homePage {
+  color: rgb(212, 23, 202);
+}
+
+.moviesPage {
+  color: rgb(212, 23, 202);
+}
+
+.shadowLine {
+  height: 5px;
+  background: linear-gradient(to right, #00ccff, rgb(255, 0, 191));
+  transition: background 0.5s ease;
+  box-shadow: 5px 10px 18px #888888;
+}
